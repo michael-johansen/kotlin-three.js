@@ -1,0 +1,17 @@
+{
+  "name": "kotlin-three.js",
+  "version": "0.1.0",
+  "description": "",
+  "main": "out/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Johansen",
+  "license": "MIT",
+  "dependencies": {
+    "node-kotlin": "^1.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
