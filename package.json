@@ -1,7 +1,11 @@
 {
   "name": "kotlin-three.js",
   "version": "0.1.0",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michael-johansen//kotlin-three.js.git"
+  },
+  "description": "Kotlinjs bindings for three.js",
   "main": "out/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
