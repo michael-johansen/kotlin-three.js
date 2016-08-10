@@ -74,6 +74,7 @@ open class Object3D(
 ) {
   //Functions
   fun add(obj: Object3D): Unit = noImpl
+  fun remove(obj: Object3D): Unit = noImpl
 
   @native fun rotateX(radians: Double): Unit = noImpl
   @native fun rotateY(radians: Double): Unit = noImpl

@@ -3,19 +3,23 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/michael-johansen//kotlin-three.js.git"
+    "url": "git://github.com/michael-johansen/kotlin-three.js.git"
   },
   "description": "Kotlinjs bindings for three.js",
-  "main": "out/app.js",
+  "main": "out/kotlin-three.js",
+  "files": [
+    "out/kotlin-three.js",
+    "out/kotlin-three.meta.js",
+    "out/kotlin-three.zip"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Johansen",
   "license": "MIT",
-  "dependencies": {
-    "node-kotlin": "^1.0.0"
-  },
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "node-kotlin": "^1.0.0",
+    "rimraf": "^2.5.2"
   }
 }
